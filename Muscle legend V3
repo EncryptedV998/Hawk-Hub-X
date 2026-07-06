@@ -13,7 +13,7 @@ local muscleEvent = player:WaitForChild("muscleEvent")
 local leaderstats = player:WaitForChild("leaderstats")
 local rebirthsStat = leaderstats:WaitForChild("Rebirths")
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lkjhg969/ffdsf/refs/heads/main/hgfhj", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/p4020854-hub/Lb/refs/heads/main/X", true))()
 
 local window = library:AddWindow("Hawk Hub X | Farming", {
     main_color = Color3.fromRGB(25, 25, 112),
@@ -809,7 +809,7 @@ end)
 local infoTab = window:AddTab("Info")
 infoTab:Show()
 infoTab:AddLabel("Made by Kisho").TextSize = 20
-infoTab:AddLabel("discord.gg/silencev1").TextSize = 20
+infoTab:AddLabel("Hawk Hub X ").TextSize = 20
 infoTab:AddButton("Copy Invite", function()
     local link = "https://discord.gg/fDGCrgxUsJ"
     if setclipboard then
