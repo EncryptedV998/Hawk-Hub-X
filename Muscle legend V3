@@ -13,7 +13,7 @@ local muscleEvent = player:WaitForChild("muscleEvent")
 local leaderstats = player:WaitForChild("leaderstats")
 local rebirthsStat = leaderstats:WaitForChild("Rebirths")
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/p4020854-hub/Lb/refs/heads/main/X", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/StyearX/Fluent-modded/refs/heads/main/Fluent/Example/FluentPro%20Example"))()
 
 local window = library:AddWindow("Hawk Hub X | Farming", {
     main_color = Color3.fromRGB(25, 25, 112),
